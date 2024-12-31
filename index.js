@@ -4,6 +4,7 @@ const file=fs.readFile('./index.html',(err,txt)=>{
                 console.log(err);
         }
         else{
-                console.log(txt);
+                
+                console.log("kitilgan matn: "+txt);
         }
 })
